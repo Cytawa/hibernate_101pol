@@ -12,11 +12,11 @@ public class Country {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "CO_ID")
+    @Column(name = "id")
     private int id;
-    @Column(name = "CO_NAME")
+    @Column(name = "name")
     private String name;
-    @Column(name = "CO_ALIAS")
+    @Column(name = "alias")
     private String alias;
 
 }
